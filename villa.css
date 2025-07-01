@@ -160,10 +160,6 @@
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
 
-.headingandPara {
-    flex: 1;
-}
-
 .headingandPara h2 {
     font-size: 2.5rem;
     margin: 20px 0;
@@ -178,7 +174,7 @@
 }
 
 .blue {
-    color: #1e90ff !important;
+    color: #1e90ff;
 }
 
 .fourandImg {
