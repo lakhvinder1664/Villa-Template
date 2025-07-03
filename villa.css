@@ -148,18 +148,22 @@
 
 /* Featured Section */
 .threethings {
+    align-items: center;
     display: flex;
     padding: 80px 10%;
     gap: 40px;
 }
 
+.oneimg{
+    /* width: 53%; */
+    width: 73%;
+    
+}
 .oneimg img {
     width: 100%;
     max-width: 400px;
-    border-radius: 10px;
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
-
 .headingandPara h2 {
     font-size: 2.5rem;
     margin: 20px 0;
@@ -172,7 +176,20 @@
     border-radius: 10px;
     margin-top: 30px;
 }
+.boxpara .p-1 {
 
+}
+.boxpara .p-2{
+    width: 39%;
+    border-bottom: 1px solid lightgray;
+    font-size: 19px;
+    font-weight: 500;
+}
+.boxpara .p-3{
+    line-height: 2;
+    font-weight: 500;
+    font-size: 19px;
+}
 .blue {
     color: #1e90ff;
 }
@@ -195,6 +212,12 @@
 .totalflatspace img, .contractready img, .payment img, .safety img {
     width: 40px;
     margin-right: 15px;
+}
+
+.safety, .payment, .contractready, .totalflatspace { 
+    width: max-content;
+    margin-top: 0px;
+    margin-bottom: 25px;
 }
 .total{
     margin: 16px 0 17px 0px;
@@ -284,7 +307,7 @@
 .threelightorangeboxcontainertwo {
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 13%;
     padding: 0 10%;
 }
 
@@ -293,17 +316,20 @@
     padding: 25px;
     border-radius: 10px;
     display: flex;
+    justify-content: space-around;
     align-items: center;
     min-width: 250px;
 }
-
-.building h5, .year h5, .awwards h5 {
-    margin-left: 15px;
+.building p{
+    font-size: 50px;
 }
-
+.building h5{
+    line-height: 2;
+    font-size: 15px;
+}
 .span {
+    font-size: 19px;
     font-weight: bold;
-    font-size: 1.8rem;
     color: #d73737 !important;
 }
 
@@ -313,7 +339,10 @@
     background: #f8f8f8;
     padding: 80px 10%;
 }
-
+.bestdeal{
+    color: #d73737;
+    font-weight: 700;
+}
 .bestdealfront {
     display: flex;
     justify-content: space-between;
@@ -449,6 +478,7 @@
 }
 
 .headAndpara {
+    width: 100%;
     padding: 20px;
 }
 
@@ -477,3 +507,13 @@
 .headAndpara button:hover {
     background: #d73737;
 }
+
+
+
+
+
+
+
+
+
+
