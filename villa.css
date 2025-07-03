@@ -456,7 +456,23 @@
     height: 250px;
     object-fit: cover;
 }
-
+.oneline ul{
+    gap: 16px;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+/* .sixcardcontain button{
+    margin: 75px;
+    width: 61%;
+    padding: 12px;
+    margin-top: 28px;
+    background: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+} */
 .bottomcont {
     padding: 20px;
     display: flex;
@@ -569,7 +585,8 @@
     border: none;
     background: lightgray;
 }
-.div-name textarea{
+.div-name textarea{   
+    width: 468%;
     margin-top: 19px;
 }
 .form-btn{
@@ -586,3 +603,52 @@
     background: black;
     color: white !important;
 }
+
+.bottom-map-two-box{
+    padding-top: 48px;
+    gap: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.left-box{
+    border-radius: 11px;
+    padding: 3px 39px 5px 42px;
+    background: white;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+}
+/* .right-box{
+    padding: 20px;
+    background: white;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+} */
+ .left-box-text{
+    margin: 10px;
+ }
+ .left-box h4{
+    font-size: 20px;
+    font-weight: 600;
+ }
+ .left-box span{
+    font-size: 15px;
+    color: #aaaaaa;
+    font-weight: 400;
+ }
+
+ /* footer */
+
+ footer{
+    margin-top: 29%;
+    background: black;
+ }
+ .footer-txt p{
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 8;
+    color: white !important;
+ }
