@@ -1,4 +1,13 @@
-/* Reset & Base Styles */
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Villa Real Estate</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+  <link rel="stylesheet" href="villa.css" />
+  <style>
+    /* Reset & Base Styles */
 * {
     margin: 0;
     padding: 0;
@@ -14,41 +23,40 @@
     padding: 0.1% 10% 1% 10%;
     background: #f8f8f8;
 }
-.leftpart li i{    
+.leftpart li i {
     font-size: 22px;
     margin: 10px;
     color: #d73737;
 }
-.leftpart{
+.leftpart {
     font-size: 15px;
     gap: 15px;
     list-style: none;
     display: flex;
 }
-.rightpart{
+.rightpart {
     font-size: 11px;
     align-items: center;
     gap: 15px;
     list-style: none;
     display: flex;
 }
-.rightpart a{
+.rightpart a {
     padding: 7px;
     border-radius: 44px;
     background: gray;
     text-decoration: none;
     color: #333;
 }
-.rightpart a:hover{
-    padding: 7px;
+.rightpart a:hover {
     background: #d73737;
-    border-radius: 44px;
-    color: #ffff;
+    color: #fff;
 }
-.rightpart i{
+.rightpart i {
     font-size: 15px;
     color: white;
 }
+
 /* Main Navigation */
 .containertwo {
     padding: 15px 10%;
@@ -58,17 +66,15 @@
     z-index: 100;
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
 }
-
 .containertwo .logo {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.containertwo .logo h4{
+.containertwo .logo h4 {
     font-size: 40px;
 }
-
-.containertwo .logo i{
+.containertwo .logo i {
     border-radius: 25px;
     margin-right: 6px;
     background: #d73737;
@@ -77,10 +83,9 @@
 .containertwo ul {
     align-items: center;
     display: flex;
-    gap: 56px;
+    gap: clamp(10px, 4vw, 56px);
     list-style: none;
 }
-
 .containertwo a {
     font-size: 16px;
     text-decoration: none;
@@ -88,15 +93,14 @@
     font-weight: 500;
     transition: color 0.3s;
 }
-.containertwo a:hover i{
+.containertwo a:hover i {
     color: white;
 }
 .containertwo a:hover {
     color: #d73737;
 }
-
 .libg a {
-    padding: 12px 16px 14px 0px;
+    padding: 12px 16px;
     background: #333;
     color: white;
     border-radius: 24px;
@@ -108,32 +112,28 @@
     background: url('banner-01.jpg') center/cover no-repeat;
     position: relative;
 }
-
 .bgimgtext {
     position: absolute;
     left: 22%;
     top: 17%;
     text-align: left;
 }
-
 .firsttext {
     background: rgb(255, 255, 255);
     padding: 10px 20px;
     display: inline-block;
     font-size: 1.2rem;
 }
-
 .Canada {
     color: #d73737;
 }
-
-.littlebigtext {font-weight: 700;
+.littlebigtext {
+    font-weight: 700;
     font-size: 60px;
     color: white;
     margin-top: 20px;
     line-height: 1.2;
 }
-
 .dot {
     position: absolute;
     bottom: 27px;
@@ -141,109 +141,73 @@
     font-size: 7rem;
     color: white;
 }
-
 .dot span {
     color: #d73737;
 }
 
-/* Featured Section */
-.threethings {
+/* Section Two Layout */
+.sectiontwo {
+    padding: 60px 0;
+    background: #f9f9f9;
+}
+.property-layout {
     display: flex;
-    padding: 80px 10%;
+    justify-content: space-between;
+    align-items: flex-start;
     gap: 40px;
 }
-
-.oneimg img {
+.info-box {
+    background: #fff;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    min-width: 200px;
+}
+.property-image img {
     width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.property-content {
     max-width: 400px;
-    border-radius: 10px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
-
-.headingandPara h2 {
-    font-size: 2.5rem;
-    margin: 20px 0;
-    line-height: 1.2;
+.property-content h4 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: 700;
 }
-
-.boxpara {
-    background: #f8f8f8;
-    padding: 25px;
-    border-radius: 10px;
-    margin-top: 30px;
+.property-content p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 16px;
 }
-
-.blue {
-    color: #1e90ff;
-}
-
-.fourandImg {
-    background: white;
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-    align-self: flex-start;
-}
-
-.totalflatspace, .contractready, .payment, .safety {
+.schedule-btn {
+    background: #1f1f1f;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
     display: flex;
     align-items: center;
-    padding: 15px 0;
-    border-bottom: 1px solid #eee;
+    gap: 8px;
+    transition: all 0.3s ease;
 }
-
-.totalflatspace img, .contractready img, .payment img, .safety img {
-    width: 40px;
-    margin-right: 15px;
+.schedule-btn .icon {
+    font-size: 18px;
 }
-.total{
-    margin: 16px 0 17px 0px;
-}
- .totalf{
-    border-bottom: 1px solid;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px;
-}
-.innextlinethirdbox h6{
-    padding-left: 19px;
-    font-size: 17px;
-}
-.innextlinethirdbox p{
-    margin: 20px;
-    font-size: 12px;
-    line-height: 2;
-}
-.endbutton{
-    width: 55%;
-    margin: 20px;
-}
-.endbutton a{
-    align-items: center;
-    gap: 19px;
-    display: flex;
-    border-radius: 27px;
-    text-decoration: none;
-    background: black;
-    color: white;
-}
- .endbutton  i{ 
-    background: #d73737;
-    padding: 17px;
-    border-radius: 24px;
- }
- 
-.endbutton a i:hover{
-    color: white;
-}
-.endbutton a:hover {
-    color: #d73737;
+.schedule-btn:hover {
+    background-color: #d8491f;
 }
 
 /* Video Section */
 .blurimg {
-    height: 500px;
     background: url('video-bg.jpg') center/cover no-repeat;
     display: flex;
     flex-direction: column;
@@ -252,42 +216,41 @@
     color: white;
     text-align: center;
     position: relative;
+    padding: 100px 0;
 }
-
+.blurimg::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+}
 .blurimg * {
     position: relative;
     z-index: 1;
-}
-.blur-img-top-text{
-    margin-bottom: -15%;
-    margin-top: 23%;
 }
 .blurimg h3 {
     font-size: 2.5rem;
     margin: 20px 0;
 }
-
 .afterblurimg img {
     width: 100%;
+    max-width: 800px;
     border-radius: 10px;
     margin-top: 30px;
     box-shadow: 0 5px 25px rgba(0,0,0,0.3);
 }
 
 /* Stats Section */
-
-.sec-three-color-box{
-    margin-bottom: 8%;
-    margin-top: 19%;
-    width: 100%;
-}
 .threelightorangeboxcontainertwo {
     display: flex;
     justify-content: center;
     gap: 30px;
     padding: 0 10%;
+    margin-top: -50px;
 }
-
 .building, .year, .awwards {
     background: rgba(255, 171, 171, 0.5);
     padding: 25px;
@@ -296,11 +259,9 @@
     align-items: center;
     min-width: 250px;
 }
-
 .building h5, .year h5, .awwards h5 {
     margin-left: 15px;
 }
-
 .span {
     font-weight: bold;
     font-size: 1.8rem;
@@ -309,28 +270,23 @@
 
 /* Properties Section */
 .threethingsdouble {
-    /* margin-top: 6%; */
     background: #f8f8f8;
     padding: 80px 10%;
 }
-
 .bestdealfront {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 40px;
 }
-
 .bigfont {
     font-size: 2.5rem;
     font-weight: bold;
 }
-
 .apv {
     display: flex;
     gap: 15px;
 }
-
 .apv button {
     padding: 12px 25px;
     border: none;
@@ -340,35 +296,28 @@
     cursor: pointer;
     transition: all 0.3s;
 }
-
 .apv button:hover, .apv .buttonapp {
     background: #d73737;
 }
-
 .innextlilne {
     display: flex;
     gap: 30px;
 }
-
 .innextlinebox {
+    margin: 40px;
     flex: 1;
     background: white;
-    padding: 30px;
     border-radius: 10px;
 }
-
 .innextlinesecondbox {
     flex: 2;
 }
-
 .innextlinesecondbox img {
     width: 100%;
 }
-
 .innextlinethirdbox {
     flex: 1.5;
 }
-
 .endbutton button {
     padding: 15px 30px;
     background: #333;
@@ -378,7 +327,6 @@
     cursor: pointer;
     transition: all 0.3s;
 }
-
 .endbutton button:hover {
     background: #d73737;
 }
@@ -387,81 +335,67 @@
 .sectionfive {
     padding: 80px 10%;
 }
-
 .centrehead {
     text-align: center;
     margin-bottom: 50px;
 }
-
 .centrehead h5 {
     color: #d73737;
     font-size: 1.2rem;
     letter-spacing: 3px;
 }
-
 .centrehead h4 {
     font-size: 2.5rem;
     font-weight: bold;
     margin: 10px 0;
 }
-
 .sixcardcontainerbg {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
     gap: 30px;
 }
-
 .sixcardcontain {
     background: white;
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-    transition: transform 0.3s;
+    transition: transform 0.3s ease;
 }
-
 .sixcardcontain:hover {
     transform: translateY(-10px);
 }
-
 .sixcardone img {
     width: 100%;
     height: 250px;
     object-fit: cover;
 }
-
 .bottomcont {
     padding: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
 .bottomcont p {
     background: #ffabab;
     padding: 5px 15px;
     border-radius: 20px;
     font-weight: bold;
 }
-
 .bottomcont span {
     font-size: 1.2rem;
     font-weight: bold;
 }
-
 .headAndpara {
     padding: 20px;
 }
-
 .headAndpara h5 {
     margin-bottom: 15px;
     font-size: 1.2rem;
 }
-
 .headAndpara p {
     margin: 8px 0;
     color: #666;
 }
-
 .headAndpara button {
     width: 100%;
     padding: 12px;
@@ -471,9 +405,113 @@
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    
+    transition: background 0.3s;
 }
-
 .headAndpara button:hover {
     background: #d73737;
 }
+
+  </style>
+</head>
+<body>
+  <!-- Top Navigation -->
+  <nav class="firstnav">
+    <ul class="leftpart">
+      <li><i class="fa-solid fa-envelope"></i>info@company.com</li>
+      <li><i class="fa-solid fa-map"></i>Sunny Isles Beach, FL 33180</li>
+    </ul>
+    <ul class="rightpart">
+      <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+      <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+      <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+      <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+    </ul>
+  </nav>
+
+  <!-- Main Navigation -->
+  <nav class="containertwo">
+    <div class="logo">
+      <h4>Villa</h4>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Properties</a></li>
+        <li><a href="#">Property Details</a></li>
+        <li><a href="#">Contact-Us</a></li>
+        <li class="libg"><a href="#"><i class="fa-solid fa-calendar"></i>Schedule a visit</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="sectionfirst">
+    <div class="firstimg">
+      <div class="bgimgtext">
+        <div class="firsttext">
+          <p>Toronto, <span class="Canada">Canada</span></p>
+        </div>
+        <div class="littlebigtext">
+          HURRY!<br />GET THE BEST<br />VILLA FOR YOU
+        </div>
+      </div>
+      <div class="dot">
+        <span>.</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Best Apartment & Sea View Section -->
+  <section class="sectionbestview">
+    <div class="bestview-container">
+      <div class="left-img"><img src="property-03.jpg" alt=""></div>
+      <div class="center-content">
+        <p class="section-tag">| FEATURED</p>
+        <h2>Best Appartment & Sea View</h2>
+        <p>Details about the property, layout, location and benefits go here.</p>
+      </div>
+      <div class="right-box">
+        <ul>
+          <li><i class="fa fa-home"></i> 250 m²</li>
+          <li><i class="fa fa-shield"></i> Contract</li>
+          <li><i class="fa fa-dollar-sign"></i> Payment</li>
+          <li><i class="fa fa-check-circle"></i> Safety</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Video View Section -->
+  <section class="sectionthree">
+    <div class="newcontainer">
+      <div class="blurimg">
+        <p class="span">|VIDEO VIEW</p>
+        <h3>Get Closer View & <br />Different Feeling</h3>
+        <div class="afterblurimg">
+          <img src="video-frame.jpg" alt="">
+          <div class="play-button"><i class="fa fa-play"></i></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact & Map Section -->
+  <section class="contact-map">
+    <div class="map-form">
+      <div class="map">
+        <iframe src="https://maps.google.com/maps?q=Miami%20Beach&t=&z=13&ie=UTF8&iwloc=&output=embed" width="100%" height="300" style="border:0;"></iframe>
+      </div>
+      <form class="contact-form">
+        <input type="text" placeholder="Your Name">
+        <input type="email" placeholder="Email address">
+        <input type="text" placeholder="Subject">
+        <textarea placeholder="Your Message"></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Villa Agency Co. Ltd. All rights reserved. Design: TemplateMo</p>
+  </footer>
+</body>
+</html>
