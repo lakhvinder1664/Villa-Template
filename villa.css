@@ -50,9 +50,15 @@
     color: white;
 }
 /* Main Navigation */
+
+  .second-nav{
+    position: fixed;
+    top: 0;
+    z-index: 5;
+    width: 100%;
+  }
 .containertwo {
     padding: 15px 10%;
-    position: sticky;
     top: 0;
     background: white;
     z-index: 100;
@@ -665,3 +671,4 @@
     line-height: 8;
     color: white !important;
  }
+
