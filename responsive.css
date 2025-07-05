@@ -1,5 +1,119 @@
+/* ---{Responsive-1299px}--- */
 @media (min-width: 1299px) {
+   .oneimg {
+    width: 123%;
+   }
+    .boxpara .p-2 {
+        width: 59%;
+    }
+
+    .oneimg {
+        width: 63%;
+    }
     .sec-three-color-box {
     margin-top: 25%;
+    }
+
+    .endbutton {
+    width: 60%;
+    }
+    .endbutton a {
+        gap: 10px;
+    }
+
+     .form-btn button {
+     padding: 11px;
+    }
 }
+
+
+
+/* ---{Responsive-1199px}--- */
+@media (min-width: 1199px) {
+
+    .threethings {
+        padding: 80px 7%;
+    }
+    .threethingsdouble {
+        padding: 75px 2%;
+    }
+
+   .oneimg {
+    width: 63%;
+   }
+    .boxpara .p-2 {
+        width: 65%;
+    }
+
+    .sec-three-color-box {
+    margin-top: 25%;
+    }
+
+    .endbutton {
+        width: 65%;
+    }
+    .endbutton a {
+        gap: 10px;
+    }
+
+    .form-btn {
+        width: 42%;
+    }
+    .form-btn button {
+     padding: 11px;
+    }
 }
+
+/* ---{Responsive-1099px}--- */
+@media (min-width: 1099px) {
+
+    .threethings {
+        padding: 80px 3%;
+    }
+    .threethingsdouble {
+        padding: 75px 2%;
+    }
+
+    .oneimg {
+    width: 123%;
+   }
+    .boxpara .p-2 {
+        width: 65%;
+    }
+
+   .sec-three-color-box {
+    margin-top: 25%;
+   }
+   .sec-three-color-box {
+   margin-top: 25%;
+    }
+
+    .endbutton {
+        width: 58%;
+    }
+    .endbutton a {
+        gap: 8px;
+    }
+    
+
+    .endbutton {
+        width: 58%;
+    }
+    .endbutton a {
+        gap: 8px;
+    }
+    
+    
+    .map-contact-form{
+        padding: 40px;
+    }
+
+    .form-btn {
+        width: 42%;
+    }
+    .form-btn button {
+        padding: 13px;
+    }
+
+}
+
