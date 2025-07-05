@@ -111,7 +111,7 @@
 /* Hero Section */
 .firstimg {
     height: 600px;
-    background: url('banner-01.jpg') center/cover no-repeat;
+    background: url('../Images/banner-01.jpg') center/cover no-repeat;
     position: relative;
 }
 
@@ -162,7 +162,7 @@
 
 .oneimg{
     /* width: 53%; */
-    width: 73%;
+    width: 65%;
     
 }
 .oneimg img {
@@ -537,7 +537,7 @@
 }
 .bg-image{
     height: 600px;
-    background: url('contact-bg.jpg') center/cover no-repeat;
+    background: url('../Images/contact-bg.jpg') center/cover no-repeat;
     position: relative;
     
 }

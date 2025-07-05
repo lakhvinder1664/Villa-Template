@@ -1,12 +1,14 @@
 /* ---{Responsive-1299px}--- */
-@media (min-width: 1299px) {
+@media (max-width: 1299px) {
    .oneimg {
     width: 123%;
    }
     .boxpara .p-2 {
         width: 59%;
     }
-
+    .threethings {
+        padding: 80px 5%;
+    }
     .oneimg {
         width: 63%;
     }
@@ -84,9 +86,6 @@
    .sec-three-color-box {
     margin-top: 25%;
    }
-   .sec-three-color-box {
-   margin-top: 25%;
-    }
 
     .endbutton {
         width: 58%;
@@ -117,3 +116,37 @@
 
 }
 
+
+/* ---{Responsive-1024px}--- */
+@media (min-width: 1024px) {
+    .threethings {
+        padding: 80px 4%;
+    }
+    .oneimg {
+    width: 145%;
+    }
+    .boxpara .p-2 {
+    width: 68%;
+    }
+    .afterblurimg img {
+    width: 65%;
+    }
+    .sec-three-color-box {
+    margin-top: 20%;
+   }
+   .threelightorangeboxcontainertwo {
+    gap: 10%;
+   }
+   .boxpara {
+    padding: 8px;
+   }
+   .fourandImg {
+    padding: 19px;
+   }
+   .building, .year, .awwards {
+    padding: 10px;
+   }
+   .endbutton {
+        width: 80%;
+    }
+}
