@@ -16,20 +16,12 @@ Villa is a responsive real estate website template built using **HTML** and **CS
 
 ## 📂 Folder Structure
 
-Villa-Website/
-├── index.html
-├── css/
-│ ├── villa.css
-│ └── responsive.css
-├── Images/
-│ ├── banner-01.jpg
-│ ├── featured.jpg
-│ ├── property-01.jpg
-│ ├── property-02.jpg
-│ └── ... (other images)
-├── icons/
-│ └── info-icon-01.png (and others)
-└── README.md
+- css: `villa.css`, `responsive.css`  
+- icons: `info-icon-01.png`, ...  
+- Images: `banner-01.jpg`, `featured.jpg`, `property-01.jpg`, ...  
+- README.md  
+- index.html  
+
 
 
 ## 🚀 Technologies Used
