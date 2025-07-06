@@ -112,12 +112,12 @@ Connect to your backend:
 
 ## **📬 Connect**  
 
-| Platform       | Link                                                                 |
-|----------------|--------------------------------------------------------------------- |
-| **GitHub**     | [github.com/lakhvinder1664](https://github.com/lakhvinder1664)       |
-| **LinkedIn**   | [LinkedIn Profile](https://linkedin.com/in/lakhvinder-singh)         |
-| **Portfolio**  | [YourPortfolio.com](#)                                               |
-| **Instagram**  | [Instagram Profile](https://www.instagram.com/lakhvinder012/)        |
+| Platform       | Link                                                                                                        |
+|----------------|------------------------------------------------------------------------------------------------------------ |
+| **GitHub**     | [github.com/lakhvinder1664](https://github.com/lakhvinder1664)                                              |
+| **LinkedIn**   | [linkedin.com/in/lakhvinder-singh-6055362b8/](https://linkedin.com/in/lakhvinder-singh)                     |
+| **Portfolio**  | [Portfolio](https://digital-portfolio1.netlify.app/)                                                |
+| **Instagram**  | [instagram.com/lakhvinder012/](https://www.instagram.com/lakhvinder012/)                                    |
 
 **💡 Pro Tip:** Star ⭐ this repo if you find it useful!  
 
