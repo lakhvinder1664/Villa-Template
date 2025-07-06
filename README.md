@@ -1,7 +1,7 @@
 # **🏡 Villa - Premium Real Estate Template**  
 *A responsive, modern real estate website template built with pure HTML5 & CSS3*  
 
-![Villa Hero Banner](Images/banner-01.jpg)  
+![Villa Hero Banner](assets/Images/banner-01.jpg)  
 <!-- *[→ Live Demo](#) ←* *(Add your demo link here)*   -->
 
 ---
