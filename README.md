@@ -42,7 +42,6 @@
 │   ├── img/                  # WebP-optimized images
 │   └── icons/                # SVG/PNG icons
 ├── index.html                # Semantic HTML5 markup
-├── LICENSE                   # MIT License
 └── README.md                 # Documentation
 ```
 
@@ -108,20 +107,17 @@ Connect to your backend:
 **Option 2: Netlify**  
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/your-repo/villa-realestate)
 
----
-
-## **📜 License**  
-MIT Licensed. See [LICENSE](LICENSE) for details.
 
 ---
 
 ## **📬 Connect**  
 
 | Platform       | Link                                                                 |
-|----------------|---------------------------------------------------------------------|
-| **GitHub**     | [github.com/lakhvinder1664](https://github.com/lakhvinder1664)      |
-| **LinkedIn**   | [LinkedIn Profile](https://linkedin.com/in/lakhvinder-singh)        |
-| **Portfolio**  | [YourPortfolio.com](#)                                              |
+|----------------|--------------------------------------------------------------------- |
+| **GitHub**     | [github.com/lakhvinder1664](https://github.com/lakhvinder1664)       |
+| **LinkedIn**   | [LinkedIn Profile](https://linkedin.com/in/lakhvinder-singh)         |
+| **Portfolio**  | [YourPortfolio.com](#)                                               |
+| **Instagram**  | [Instagram Profile](https://www.instagram.com/lakhvinder012/)        |
 
 **💡 Pro Tip:** Star ⭐ this repo if you find it useful!  
 
@@ -135,12 +131,3 @@ MIT Licensed. See [LICENSE](LICENSE) for details.
 
 ---
 
-This version adds:  
-✅ Badges for tech stack  
-✅ Comparison tables for responsive design  
-✅ Ready-to-use code snippets  
-✅ Deploy button for Netlify  
-✅ Clear value proposition section  
-✅ Improved visual hierarchy with dividers  
-✅ Professional license mention  
-✅ Call-to-action for GitHub stars  
