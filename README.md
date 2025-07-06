@@ -6,6 +6,16 @@
 
 ---
 
+### 🖼️ Featured Properties
+
+<p style ="center">
+  <img src="assets/Images/property-01.jpg" width="250" alt="Property 01" />
+  <img src="assets/Images/property-02.jpg" width="250" alt="Property 02" />
+  <img src="assets/Images/property-03.jpg" width="250" alt="Property 03" />
+</p>
+
+---
+
 ## **✨ Key Features**  
 
 | **Category**        | **Highlights**                                                                 |
