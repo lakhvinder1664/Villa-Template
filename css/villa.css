@@ -52,9 +52,10 @@
 /* Main Navigation */
 
   .second-nav{
-    position: fixed;
-    top: 0;
-    z-index: 5;
+    position: sticky;
+    top: 0px;
+    bottom: 0px;
+    z-index: 2;
     width: 100%;
   }
 .containertwo {
