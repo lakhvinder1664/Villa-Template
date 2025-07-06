@@ -1,16 +1,13 @@
 /* ---{Responsive-1299px}--- */
-@media (max-width: 1299px) {
+@media (min-width: 1299px) {
    .oneimg {
-    width: 123%;
+    width: 73%;
    }
     .boxpara .p-2 {
         width: 59%;
     }
     .threethings {
-        padding: 80px 5%;
-    }
-    .oneimg {
-        width: 63%;
+        padding: 80px 6%;
     }
     .sec-three-color-box {
     margin-top: 25%;
@@ -120,10 +117,10 @@
 /* ---{Responsive-1024px}--- */
 @media (min-width: 1024px) {
     .threethings {
-        padding: 80px 4%;
+        padding: 80px 2%;
     }
     .oneimg {
-    width: 145%;
+    width: 117%;
     }
     .boxpara .p-2 {
     width: 68%;
@@ -137,6 +134,12 @@
    .threelightorangeboxcontainertwo {
     gap: 10%;
    }
+   .threethingsdouble {
+    padding: 80px 1%;
+   }
+   .innextlilne {
+    align-items: center;
+   }
    .boxpara {
     padding: 8px;
    }
@@ -146,7 +149,118 @@
    .building, .year, .awwards {
     padding: 10px;
    }
+   .innextlinethirdbox p {
+    margin: 13px;
+   }
    .endbutton {
-        width: 80%;
+        width: 62%;
+    }
+    .endbutton a{
+        gap: 9px;
+    }
+    .map-contact-form {
+    padding: 11px;
+    }
+    .form-btn {
+    width: 50%;
+}
+}
+
+
+
+/* ---{Responsive-991px}--- */
+
+@media (min-width: 991px) {
+    .containertwo {
+    padding: 15px 4%;
+    } 
+    .threethings {
+    padding: 80px 3%;
+}
+    .oneimg {
+    width: 100%;
+    }
+    .span {
+    font-size: 18px;
+    }
+    .headingandPara h2 {
+    font-size: 2.5rem;
+    margin: 1px 0;
+    }
+    .fourandImg {
+    padding: 15px;
+    }
+    .totalflatspace {
+    margin-bottom: 15px;
+    }
+    .payment {
+    margin-bottom: 7px;
+    }
+    .boxpara {
+        padding: 6px;
+        margin-top: 34px;
+        font-size: 15px;
+    }
+    .boxpara .p-2 {
+    width: 56%;
+    border-bottom: 1px solid lightgray;
+    font-size: 18px;
+    }
+    .boxpara .p-3 {
+    font-size: 18px;
+    }
+    .contractready, .totalflatspace {
+    margin-bottom: 15px;
+    }
+    .blur-img-top-text {
+    margin-top: 16%;
+    }
+    .afterblurimg img {
+    width: 70%;
+    }
+    .building {
+    padding: 10px;
+    min-width: 220px;
+    }
+    .threethingsdouble {
+    padding: 80px 3%;
+    }
+    .innextlilne {
+    align-items: center;
+    gap: 12px;
+    }
+    .innextlinebox {
+    padding: 23px 6px 23px 6px;
+    }
+    .innextlinethirdbox h6 {
+    padding-left: 3px;
+    }
+    .innextlinethirdbox p {
+    margin: 20px 4px;
+    }
+    .apv {
+    display: flex;
+    gap: 45px;
+    }
+    .endbutton {
+    width: 55%;
+    margin: 6px 16px;
+    }
+    .endbutton a {
+    font-size: 15px;
+    gap: 6px;
+    }
+    .endbutton i {
+    padding: 12px
+    }
+    .map-contact-form {
+    padding: 17px;
+    gap: 30px;
+    }
+    .contact-form-right {
+    width: 34%;
+    }
+    .contact-form-right form {
+    padding: 8px 3px 6px 18px;
     }
 }
