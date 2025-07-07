@@ -304,7 +304,7 @@
 
 .sec-three-color-box{
     margin-bottom: 8%;
-    margin-top: 19%;
+    margin-top: 25%;
     width: 100%;
 }
 .threelightorangeboxcontainertwo {
@@ -326,9 +326,19 @@
 .building p{
     font-size: 50px;
 }
+.building h5::after {
+    content: '';
+    background-color: #d73737;
+    padding: 25px;
+    border-radius: 80%;
+    top: -45px;
+    position: absolute;
+    right: -55px;
+}
 .building h5{
     line-height: 2;
     font-size: 15px;
+    position: relative;
 }
 .span {
     font-size: 19px;
@@ -360,7 +370,7 @@
 
 .apv {
     display: flex;
-    gap: 15px;
+    gap: 40px;
 }
 
 .apv button {
