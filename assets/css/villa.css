@@ -157,12 +157,12 @@
 .threethings {
     align-items: center;
     display: flex;
-    padding: 80px 10%;
+    padding: 80px 4%;
     gap: 40px;
 }
 
 .oneimg{
-    width: 54%;
+    width: 53%;
     /* width: 65%; */
     
 }
@@ -243,12 +243,12 @@
     line-height: 2;
 }
 .endbutton{
-    width: 55%;
+    width: 50%;
     margin: 20px;
 }
 .endbutton a{
     align-items: center;
-    gap: 19px;
+    gap: 10px;
     display: flex;
     border-radius: 27px;
     text-decoration: none;
@@ -340,7 +340,7 @@
 .threethingsdouble {
     /* margin-top: 6%; */
     background: #f8f8f8;
-    padding: 80px 10%;
+    padding: 60px 10%;
 }
 .bestdeal{
     color: #d73737;
@@ -632,8 +632,9 @@
 }
 
 .left-box{
+    gap: 5px;
     border-radius: 11px;
-    padding: 3px 39px 5px 42px;
+    padding: 3px 27px 5px 38px;
     background: white;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     display: flex;
@@ -672,4 +673,3 @@
     line-height: 8;
     color: white !important;
  }
-

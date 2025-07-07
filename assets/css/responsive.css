@@ -1,20 +1,26 @@
-/* ---{Responsive-1299px}--- */
-@media (min-width: 1299px) {
+/* ---{Responsive-1300px}--- */
+@media (max-width: 1300px) {
    .oneimg {
-    width: 73%;
+    width: 78%;
    }
     .boxpara .p-2 {
         width: 59%;
     }
     .threethings {
-        padding: 80px 6%;
+        padding: 80px 2%;
+    }
+    .threethingsdouble {
+    padding: 80px 2%;
     }
     .sec-three-color-box {
     margin-top: 25%;
     }
-
+    .apv {
+    display: flex;
+    gap: 65px;
+    }
     .endbutton {
-    width: 60%;
+    width: 50%;
     }
     .endbutton a {
         gap: 10px;
@@ -27,19 +33,25 @@
 
 
 
-/* ---{Responsive-1199px}--- */
-@media (min-width: 1199px) {
+/* ---{Responsive-1200px}--- */
+@media (max-width: 1200px) {
 
     .threethings {
-        padding: 80px 7%;
+        padding: 80px 2%;
     }
     .threethingsdouble {
-        padding: 75px 2%;
+        padding: 80px 2%;
     }
 
    .oneimg {
-    width: 63%;
+    width: 90%;
    }
+   .headingandPara h2 {
+    margin: 48px 0;
+    }
+    .fourandImg {
+    padding: 40px;
+    }
     .boxpara .p-2 {
         width: 65%;
     }
@@ -64,7 +76,7 @@
 }
 
 /* ---{Responsive-1099px}--- */
-@media (min-width: 1099px) {
+/* @media (min-width: 1099px) {
 
     .threethings {
         padding: 80px 3%;
@@ -111,11 +123,11 @@
         padding: 13px;
     }
 
-}
+} */
 
 
 /* ---{Responsive-1024px}--- */
-@media (min-width: 1024px) {
+/* @media (min-width: 1024px) {
     .threethings {
         padding: 80px 2%;
     }
@@ -164,12 +176,12 @@
     .form-btn {
     width: 50%;
 }
-}
+} */
 
 
 
 /* ---{Responsive-991px}--- */
-
+/* 
 @media (min-width: 991px) {
     .containertwo {
     padding: 15px 4%;
@@ -263,12 +275,46 @@
     .contact-form-right form {
     padding: 8px 3px 6px 18px;
     }
-}
+} */
 
 
 
 /* ---{Responsive-767px}--- */
-@media (min-width: 767px) {
+/* @media (min-width: 767px) {
     
     
+} */
+
+
+
+/* 
+@media (max-width:1299px){
+.headingandPara h2 {
+    font-size: 2rem;
 }
+.blurimg h3 {
+    font-size: 2rem;
+}
+}
+
+@media (max-width:1600px){
+
+}
+@media (max-width:1399px){
+
+}
+@media (max-width:1199px){
+
+}
+@media (max-width:991px){
+
+}
+@media (max-width:767px){
+
+}
+@media (max-width:576px){
+
+}
+@media (max-width:480px){
+
+} */
