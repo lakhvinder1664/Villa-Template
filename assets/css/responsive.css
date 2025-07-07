@@ -15,6 +15,15 @@
     .sec-three-color-box {
     margin-top: 25%;
     }
+    .afterblurimg img {
+    width: 80%;
+    }
+    .building, .year, .awwards {
+    padding: 10px;
+    }
+    .threelightorangeboxcontainertwo {
+    gap: 5%;
+    }
     .apv {
     display: flex;
     gap: 45px;
@@ -75,9 +84,16 @@
     }
 }
 
-/* ---{Responsive-1099px}--- */
-/* @media (min-width: 1099px) {
-
+/* ---{Responsive-1100px}--- */
+ @media (max-width: 1100px) {
+    .firstnav {
+    gap: 34%;
+    }
+    
+    .headingandPara h2 {
+        font-size: 2.5rem;
+        margin: 23px 0;
+    }
     .threethings {
         padding: 80px 3%;
     }
@@ -86,7 +102,7 @@
     }
 
     .oneimg {
-    width: 123%;
+    width: 100%;
    }
     .boxpara .p-2 {
         width: 65%;
@@ -112,6 +128,10 @@
     }
     
     
+    .fourandImg {
+        padding: 15px;
+    }
+    
     .map-contact-form{
         padding: 40px;
     }
@@ -123,11 +143,38 @@
         padding: 13px;
     }
 
-} */
+} 
 
 
-/* ---{Responsive-1024px}--- */
-/* @media (min-width: 1024px) {
+/* ---{Responsive-1025px}--- */
+ @media (max-width: 1025px) {
+    
+    .firstnav {
+        gap: 38%;
+    }
+    .containertwo {
+    padding: 10px 10%;
+    }
+    .containertwo ul {
+    gap: 29px;
+    }
+    .leftpart li i {
+    font-size: 18px;
+    margin: 3px;
+    }
+    .rightpart a {
+    padding: 4px;
+    border-radius: 15px;
+    }
+    .rightpart i {
+    font-size: 12px;
+    }
+    .libg a {
+    padding: 6px 11px 8px 0px;
+    }
+    .containertwo .logo i {
+    padding: 9px;
+    }
     .threethings {
         padding: 80px 2%;
     }
@@ -176,13 +223,22 @@
     .form-btn {
     width: 50%;
 }
-} */
+} 
 
 
 
-/* ---{Responsive-991px}--- */
-/* 
-@media (min-width: 991px) {
+/* ---{Responsive-992px}--- */
+
+@media (max-width: 992px) {
+    .containertwo .logo {
+    gap: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    .leftpart {
+    font-size: 13px;
+    }
     .containertwo {
     padding: 15px 4%;
     } 
@@ -200,7 +256,7 @@
     margin: 1px 0;
     }
     .fourandImg {
-    padding: 15px;
+    padding: 13px;
     }
     .totalflatspace {
     margin-bottom: 15px;
@@ -275,15 +331,23 @@
     .contact-form-right form {
     padding: 8px 3px 6px 18px;
     }
-} */
+    .last-sec-text {
+    padding-top: 6%;
+    }
+} 
 
 
 
-/* ---{Responsive-767px}--- */
-/* @media (min-width: 767px) {
+/* ---{Responsive-777px}--- */
+ @media (min-width: 777px) {
+        .leftpart {
+        font-size: 9px;
+    }  
+    .containertwo a {
+    font-size: 12px;
+    }
     
-    
-} */
+} 
 
 
 
@@ -318,3 +382,4 @@
 @media (max-width:480px){
 
 } */
+ 

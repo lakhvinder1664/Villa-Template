@@ -101,6 +101,9 @@
 .containertwo a:hover {
     color: #d73737;
 }
+.right-click{
+    display: none;
+}
 
 .libg a {
     padding: 12px 16px 14px 0px;
