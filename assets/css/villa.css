@@ -593,6 +593,9 @@ body {
     justify-content: space-between;
     display: flex;
 }
+.map-contact-form iframe{
+    
+}
 
 .contact-form-right{
     width: 38%;

@@ -387,6 +387,10 @@
      .p-1{
         font-size: 10px;
      }
+     .boxpara {
+     padding: 8px;
+     margin-top: 45px;
+     }
     .boxpara .p-2 {
     width: 56%;
     border-bottom: 1px solid lightgray;
@@ -397,10 +401,6 @@
     }    
     .threethings {
     gap: 13px;
-    }
-    .boxpara {
-    padding: 8px;
-    margin-top: 45px;
     }
     
     .fourandImg {
@@ -422,30 +422,31 @@
     }    
     .sec-three-color-box {
         margin-top: 12%;
+        margin-left: 15%;
     }
     .building {
     padding: 5px;
     min-width: 158px;
     }    
     .building p {
-    font-size: 38px;
+    font-size: 50px;
     }
     .building h5 {
     line-height: 2;
-    font-size: 11px;
+    font-size: 18px;
     position: relative;
     }
     .building h5::after {
     content: '';
     background-color: #d73737;
-    padding: 18px;
+    padding: 26px;
     border-radius: 80%;
-    top: -25px;
+    top: -37px;
     position: absolute;
-    right: -31px;
+    right: -51px;
     }
-        .afterblurimg img {
-        width: 80%;
+    .afterblurimg img {
+    width: 80%;
     }
     
     .oneimg {
@@ -490,13 +491,135 @@
         width: 56%;
     }
     .threelightorangeboxcontainertwo {
-    display: block;
-    padding: 30px 40%;
-    margin: 10px;
+        display: block;
+        padding: none;
+        margin: 10px;
     }
     .building, .year, .awwards {
     padding: 10px;
-    margin: 10px;
+    margin: 52px;
+    width: 45%;
+    }
+    
+    .blur-img-top-text {
+        margin-top: 1%;
+    }
+    
+    .blur-img-top-text .span {
+        font-size: 18px;
+    }
+    .blurimg h3{
+    font-size: 2.5rem;
+    margin: 20px 0;
+    }
+    
+    
+    .threethingsdouble {
+    text-align: center;
+    padding: none;
+    }
+    .apv {
+    padding-left: 5%;
+    margin: 70px;
+    display: flex;
+    gap: 40px;
+    }
+    .apv button {
+    padding: 18px 37px;
+    border: none;
+    }
+    .bestdeal {
+    margin-top: -7%;
+    margin-bottom: 3%;
+    font-size: 17px;
+    color: #d73737;
+    font-weight: 700;
+    }
+    .bestdealfront {
+    display: block;
+    justify-content: space-between;
+    align-items: none;
+    margin-bottom: 40px;
+    }
+    .bigfont {
+    width: 100%;
+    font-size: 3.3rem;
+    font-weight: bold;
+    }
+    .innextlilne{
+        display: block;
+    }
+    .innextlinebox {
+    margin: 13%;
+    flex: 1;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    }
+    .innextlinesecondbox img {
+    width: 73%;
+    }
+    .innextlinethirdbox {
+    width: 90%;
+    margin-top: 5%;
+    }
+    .innextlinethirdbox h6 {
+    font-size: 17px;
+    text-align: left;
+    padding-left: 95px;
+    }
+    .innextlinethirdbox p {
+    padding-left: 15%;
+    font-size: 14px;
+    line-height: 2;
+    text-align: left;
+    }
+    
+    .endbutton {
+    width: 25%;
+    margin: 15px 91px;
+    }
+    .sixcardcontain {
+    margin-left: 25%;
+    width: 53%;        
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    }
+    .sixcardone img {
+    border-radius: 29px;
+    margin: 0%;
+    padding: 5%;
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    }
+    .last-sec-text {
+    padding-top: 0%;
+    }
+    .map-contact-form {
+    display: block;
+    padding: 85px;
+    }
+    .bottom-map-two-box {
+    padding-top: 48px;
+    display: block;
+    }
+    .left-box {
+    margin: 4%;
+    }
+    .contact-form-right {
+    padding: 23px;
+    width: 100%;
+    }
+    .form-btn {
+    width: 31%;
+    }
+    footer {
+    margin-top: 133%;
+    background: black;
     }
 }
  
