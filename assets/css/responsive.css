@@ -1,4 +1,4 @@
-/* ---{Responsive-1300px}--- */
+/* ---{Responsive-1299px}--- */
 @media (max-width: 1300px) {
    .oneimg {
     width: 78%;
@@ -42,7 +42,7 @@
 
 
 
-/* ---{Responsive-1200px}--- */
+/* ---{Responsive-1199px}--- */
 @media (max-width: 1200px) {
 
     .threethings {
@@ -84,7 +84,7 @@
     }
 }
 
-/* ---{Responsive-1100px}--- */
+/* ---{Responsive-1099px}--- */
  @media (max-width: 1100px) {
     .firstnav {
     gap: 34%;
@@ -146,7 +146,7 @@
 } 
 
 
-/* ---{Responsive-1025px}--- */
+/* ---{Responsive-1024px}--- */
  @media (max-width: 1025px) {
     
     .firstnav {
@@ -227,7 +227,7 @@
 
 
 
-/* ---{Responsive-992px}--- */
+/* ---{Responsive-991px}--- */
 
 @media (max-width: 992px) {
     .containertwo .logo {
@@ -338,8 +338,8 @@
 
 
 
-/* ---{Responsive-777px}--- */
- @media (min-width: 777px) {
+/* ---{Responsive-767px}--- */
+ @media (max-width: 768px) {
         .leftpart {
         font-size: 9px;
     }  
@@ -347,39 +347,7 @@
     font-size: 12px;
     }
     
-} 
-
-
-
-/* 
-@media (max-width:1299px){
-.headingandPara h2 {
-    font-size: 2rem;
-}
-.blurimg h3 {
-    font-size: 2rem;
-}
-}
-
-@media (max-width:1600px){
-
-}
-@media (max-width:1399px){
-
-}
-@media (max-width:1199px){
-
-}
-@media (max-width:991px){
-
-}
-@media (max-width:767px){
-
-}
-@media (max-width:576px){
-
-}
-@media (max-width:480px){
-
-} */
- 
+    .containertwo .logo {
+        gap: 47px;
+    } 
+ }    
