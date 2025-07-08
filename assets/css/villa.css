@@ -5,6 +5,14 @@
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+body {
+    overflow-x: hidden;
+}
+/* TEMPORARY DEBUGGING - REMOVE AFTER FIXING THE ISSUE */
+/* * {
+    outline: 1px solid red !important;
+} */
+
 
 /* Navigation Bars */
 .firstnav {

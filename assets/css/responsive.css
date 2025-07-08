@@ -339,8 +339,8 @@
 
 
 /* ---{Responsive-767px}--- */
- @media (max-width: 768px) {
-        .leftpart {
+ /* @media (max-width: 768px) { */
+        /* .leftpart {
         font-size: 9px;
     }  
     .containertwo a {
@@ -349,5 +349,104 @@
     
     .containertwo .logo {
         gap: 47px;
-    } 
- }    
+    }  */
+
+
+    @media (max-width: 768px) {
+  /* Nuclear reset for stubborn gaps */
+  body, html, .second-nav, .containertwo {
+    overflow-x: hidden !important;
+    max-width: 100% !important;
+    width: 100% !important;
+  }
+  .firstnav {
+      gap: 23%;
+    }
+    .containertwo .logo {
+        gap: 100px;
+    }    
+    .containertwo a {
+        font-size: 13px;
+    }
+    .headingandPara h2 {
+    font-size: 1.5rem;
+    margin: 1px 0px;
+    }
+    .boxpara {
+    padding: 7px;
+    margin-top: 27px;
+    }
+    
+    .span {
+    font-size: 15px;
+    }
+    .headingandPara h2 {
+    font-size: 25px;
+    margin: 23px 0px;
+    }
+     .p-1{
+        font-size: 10px;
+     }
+    .boxpara .p-2 {
+    width: 56%;
+    border-bottom: 1px solid lightgray;
+    font-size: 12px;
+    }
+    .boxpara .p-3 {
+    font-size: 12px;
+    }    
+    .threethings {
+    gap: 13px;
+    }
+    .boxpara {
+    padding: 8px;
+    margin-top: 45px;
+    }
+    
+    .fourandImg {
+        padding: 8px;
+    }
+    .contractready, .totalflatspace {
+    margin-bottom: 4px;
+    }
+    .payment {
+        margin-bottom: 4px;
+    }
+
+
+    .safety, .payment, .contractready, .totalflatspace {
+    width: max-content;
+    margin-top: 0px;
+    margin-bottom: 4px;
+    }    
+    .sec-three-color-box {
+        margin-top: 12%;
+    }
+    .threelightorangeboxcontainertwo {
+    gap: 5%;
+    }
+
+    .building {
+    padding: 5px;
+    min-width: 158px;
+    }    
+    .building p {
+    font-size: 38px;
+    }
+    .building h5 {
+    line-height: 2;
+    font-size: 11px;
+    position: relative;
+    }
+    .building h5::after {
+    content: '';
+    background-color: #d73737;
+    padding: 18px;
+    border-radius: 80%;
+    top: -25px;
+    position: absolute;
+    right: -31px;
+    }
+}
+ 
+
