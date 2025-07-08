@@ -739,43 +739,85 @@
 
 /* ---{Responsive-360px}--- */
 @media (max-width: 361px) {
-    
-   
+    .containertwo {
+    padding: 3px 4%;
+    }
+    .containertwo .logo {
+    display: flex;
+    flex-direction: row;
+    gap: 60%;
+    padding: 8px;
+    }
+   .right-click {
+        width: 11%;
+        display: block;
+        border: none;
+        background: white;
+    }
     /* Navigation */
     .leftpart li, .rightpart li {
         font-size: 12px;
     }
-    
-    /* Hero section */
+      .leftpart li, .rightpart li {
+        font-size: 10px;
+    }
+    .firsttext {
+        font-size: 17px;
+        padding: 5px 10px;
+    } 
+    .bgimgtext {
+        left: 20%;
+        top: 10%;
+    }
     .littlebigtext {
-        font-size: 30px;
+        font-size: 50px;
     }
     
-    .dot {
-        font-size: 5rem;
+    .firsttext {
+        font-size: 14px;
+        padding: 5px 10px;
     }
-    
-    /* Featured section */
+    .headingandPara {
+    margin-top: 5%;
+    margin-left: 0%;
+    }
     .headingandPara h2 {
-        font-size: 24px;
+    font-size: 35px;
+    }
+    
+    .span {
+    font-size: 17px;
     }
     
     .boxpara {
-        padding: 10px;
+    width: 100%;
     }
-    
-    /* Video section */
+
+    .fourandImg {
+    margin-top: 17%;
+    margin-left: 0%;
+    }
+    .p-1 {
+    padding: 3px;
+    font-size: 15px;
+    }
+    .boxpara .p-2 {
+    font-size: 19px;
+    padding: 3px;
+    }
+    .boxpara .p-3 {
+    font-size: 19px;
+    padding: 3px;
+    }
     .blurimg h3 {
-        font-size: 20px;
+        font-size: 18px;
     }
-    
-    /* Stats section */
     .building p {
-        font-size: 40px;
+        font-size: 30px;
     }
     
     .building h5 {
-        font-size: 14px;
+        font-size: 12px;
     }
     
     /* Properties section */
@@ -821,7 +863,7 @@
     }
     .containertwo .logo h4 {
     font-size: 40px;
-}
+    }
     .right-click {
         width: 11%;
         display: block;
