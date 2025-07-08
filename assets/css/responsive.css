@@ -623,4 +623,350 @@
     }
 }
  
+/* ---{Responsive-567px}--- */
+@media (max-width: 568px) {
+    /* Navigation adjustments */
+    .firstnav {
+        flex-direction: column;
+        padding: 10px 5%;
+        text-align: center;
+    }
+    
+    .leftpart, .rightpart {
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+    
+    .containertwo .logo {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .containertwo ul {
+        flex-direction: column;
+        gap: 15px;
+        display: none; /* Hide nav items by default */
+    }
+    
+    .right-click {
+        display: block; /* Show hamburger menu */
+    }
+    
+    /* Hero section */
+    .bgimgtext {
+        left: 10%;
+        top: 10%;
+    }
+    
+    .littlebigtext {
+        font-size: 40px;
+    }
+    
+    /* Featured section */
+    .threethings {
+        flex-direction: column;
+        padding: 40px 5%;
+    }
+    
+    .oneimg, .headingandPara, .fourandImg {
+        width: 100%;
+    }
+    
+    .headingandPara h2 {
+        font-size: 30px;
+    }
+    
+    .boxpara .p-2 {
+        width: 100%;
+    }
+    
+    /* Video section */
+    .blur-img-top-text {
+        margin-top: 15%;
+    }
+    
+    .blurimg h3 {
+        font-size: 24px;
+    }
+    
+    /* Stats section */
+    .threelightorangeboxcontainertwo {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .building, .year, .awwards {
+        width: 100%;
+        margin: 10px 0;
+    }
+    
+    /* Properties section */
+    .bestdealfront {
+        flex-direction: column;
+    }
+    
+    .apv {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        margin: 20px 0;
+    }
+    
+    .innextlilne {
+        flex-direction: column;
+    }
+    
+    /* Contact section */
+    .map-contact-form {
+        flex-direction: column;
+        padding: 20px;
+    }
+    
+    .map, .contact-form-right {
+        width: 100%;
+    }
+    
+    .form-btn {
+        width: 50%;
+    }
+    
+    /* Footer */
+    footer {
+        margin-top: 50px;
+    }
+}
+
+
+/* ---{Responsive-360px}--- */
+@media (max-width: 361px) {
+    
+   
+    /* Navigation */
+    .leftpart li, .rightpart li {
+        font-size: 12px;
+    }
+    
+    /* Hero section */
+    .littlebigtext {
+        font-size: 30px;
+    }
+    
+    .dot {
+        font-size: 5rem;
+    }
+    
+    /* Featured section */
+    .headingandPara h2 {
+        font-size: 24px;
+    }
+    
+    .boxpara {
+        padding: 10px;
+    }
+    
+    /* Video section */
+    .blurimg h3 {
+        font-size: 20px;
+    }
+    
+    /* Stats section */
+    .building p {
+        font-size: 40px;
+    }
+    
+    .building h5 {
+        font-size: 14px;
+    }
+    
+    /* Properties section */
+    .bigfont {
+        font-size: 24px;
+    }
+    
+    .apv button {
+        padding: 10px 15px;
+    }
+    
+    /* Contact section */
+    .form-btn {
+        width: 70%;
+    }
+    
+    .left-box {
+        padding: 10px;
+    }
+    
+    .left-box h4 {
+        font-size: 16px;
+    }
+}
+
+
+/* ---{Responsive-320px}--- */
+@media (max-width: 321px) {
+    .second-nav {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    z-index: 2;
+    }
+     .containertwo {
+        padding: 3px 4%;
+    }
+    .containertwo .logo {
+    display: flex;
+    flex-direction: row;
+    gap: 60%;
+    padding: 8px;
+    }
+    .containertwo .logo h4 {
+    font-size: 40px;
+}
+    .right-click {
+        width: 11%;
+        display: block;
+        border: none;
+        background: white;
+    }
+    /* Navigation */
+    .leftpart li, .rightpart li {
+        font-size: 10px;
+    }
+    .firsttext {
+        font-size: 17px;
+        padding: 5px 10px;
+    } 
+    .bgimgtext {
+        left: 20%;
+        top: 10%;
+    }
+    .littlebigtext {
+        font-size: 50px;
+    }
+    
+    .firsttext {
+        font-size: 14px;
+        padding: 5px 10px;
+    }
+    .headingandPara {
+    margin-top: 5%;
+    margin-left: 0%;
+    }
+    .headingandPara h2 {
+    font-size: 35px;
+    }
+    
+    .span {
+    font-size: 17px;
+    }
+    
+    .boxpara {
+    width: 100%;
+    }
+
+    .fourandImg {
+    margin-top: 17%;
+    margin-left: 0%;
+    }
+    .p-1 {
+    padding: 3px;
+    font-size: 15px;
+    }
+    .boxpara .p-2 {
+    font-size: 19px;
+    padding: 3px;
+    }
+    .boxpara .p-3 {
+    font-size: 19px;
+    padding: 3px;
+    }
+    .blurimg h3 {
+        font-size: 18px;
+    }
+    .building p {
+        font-size: 30px;
+    }
+    
+    .building h5 {
+        font-size: 12px;
+    }
+    
+    /* Properties section */
+    .bigfont {
+        font-size: 20px;
+    }
+    
+    .apv button {
+        padding: 8px 12px;
+        font-size: 12px;
+    }
+    
+    /* Contact section */
+    .last-sec-text h4 {
+        font-size: 20px;
+    }
+    
+    .div-name input, .div-name textarea {
+        width: 100%;
+    }
+    
+    .form-btn {
+        width: 100%;
+    }
+
+    .footer-txt p {
+        font-size: 12px;
+    }
+        .sixcardcontain {
+        margin: -24 px;
+        width: 87%;
+        background: white;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s;
+    }
+    .sixcardcontainerbg {
+    display: grid;
+    }
+    .sixcardone img {
+    border-radius: 29px;
+    margin: 0%;
+    padding: 5%;
+    width: 100%;
+    height: 250px;
+    object-fit: contain;
+    }
+    .map iframe {
+    width: 100%;
+    border-radius: 12px;
+    }
+    
+    .bottom-map-two-box {
+    padding-top: 15px;
+    display: block;
+    }
+    .left-box {
+    margin-top: 26px;
+    padding: 25px;
+    }
+    .div-name {
+    padding: 16px 16px 0px 0px;
+    }
+    .form-btn {
+        width: 50%;
+    }
+    .form-btn button {
+    font-size: 14px;
+    padding: 8px;
+    }
+    footer {
+    margin-top: 330%;
+    }
+    .footer-txt p {
+    line-height: 5;
+    width: 100%;
+    font-size: 18px;
+    }
+}
 
