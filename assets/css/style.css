@@ -59,13 +59,12 @@ body {
 }
 /* Main Navigation */
 
-  .second-nav{
-    position: sticky;
+  .second-nav {
+    position: fixed;
     top: 0px;
-    bottom: 0px;
     z-index: 2;
     width: 100%;
-  }
+}
 .containertwo {
     padding: 15px 10%;
     top: 0;
