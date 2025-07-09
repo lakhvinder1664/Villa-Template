@@ -738,7 +738,7 @@
 
 
 /* ---{Responsive-360px}--- */
-@media (max-width: 361px) {
+@media (max-width: 360px) {
     .containertwo {
     padding: 3px 4%;
     }
