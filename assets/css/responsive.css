@@ -420,10 +420,6 @@
     margin-left: 10px;
     margin-bottom: 4px;
     }    
-    .sec-three-color-box {
-        margin-top: 12%;
-        margin-left: 15%;
-    }
     .building {
     padding: 5px;
     min-width: 158px;
@@ -625,7 +621,6 @@
  
 /* ---{Responsive-567px}--- */
 @media (max-width: 568px) {
-    /* Navigation adjustments */
     .firstnav {
         flex-direction: column;
         padding: 10px 5%;
@@ -636,10 +631,20 @@
         justify-content: center;
         margin-bottom: 10px;
     }
-    
+    .containertwo {
+    padding: 10px 0%;
+    }
     .containertwo .logo {
-        flex-direction: column;
-        gap: 15px;
+        gap: 70%;
+    }
+    .containertwo .logo h4 {
+    font-size: 30px;
+    }
+    .containertwo ul {
+    gap: 14px;
+    }
+    .containertwo a {
+    font-size: 10px;
     }
     
     .containertwo ul {
@@ -654,12 +659,12 @@
     
     /* Hero section */
     .bgimgtext {
-        left: 10%;
-        top: 10%;
+    left: 21%;
+    top: 22%;
     }
-    
     .littlebigtext {
-        font-size: 40px;
+        width: 73%;
+        font-size: 50px;
     }
     
     /* Featured section */
@@ -669,17 +674,36 @@
     }
     
     .oneimg, .headingandPara, .fourandImg {
-        width: 100%;
+        width: 80%;
     }
-    
+    .oneimg{
+        padding-left: 10%;
+    }
+    .headingandPara{
+    width: 100%;
+    margin: 25px; 
+    }
     .headingandPara h2 {
-        font-size: 30px;
+        font-size: 44px;
     }
-    
+    .boxpara{
+    width: 90%;
+    }
     .boxpara .p-2 {
         width: 100%;
     }
-    
+    .fourandImg {
+    margin: 0%;
+    width: 100%;
+    }
+    .sec-three-color-box {
+    margin-left: 16%;
+    }
+        .bigfont {
+        width: 100%;
+        font-size: 2.3rem;
+        font-weight: bold;
+    }
     /* Video section */
     .blur-img-top-text {
         margin-top: 15%;
@@ -696,8 +720,8 @@
     }
     
     .building, .year, .awwards {
-        width: 100%;
-        margin: 10px 0;
+    width: 53%;
+    margin: 36px 0;
     }
     
     /* Properties section */
@@ -765,10 +789,7 @@
         font-size: 17px;
         padding: 5px 10px;
     } 
-    .bgimgtext {
-        left: 20%;
-        top: 10%;
-    }
+    
     .littlebigtext {
         font-size: 50px;
     }
@@ -779,7 +800,7 @@
     }
     .headingandPara {
     margin-top: 5%;
-    margin-left: 0%;
+    margin-left: %;
     }
     .headingandPara h2 {
     font-size: 35px;
@@ -790,7 +811,7 @@
     }
     
     .boxpara {
-    width: 100%;
+    width: 80%;
     }
 
     .fourandImg {
