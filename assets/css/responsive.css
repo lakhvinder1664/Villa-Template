@@ -752,7 +752,8 @@
         width: 80%;
     }
     .oneimg{
-        padding-left: 10%;
+        /* padding-left: 10%; */
+        width: 100%;
     }
     .headingandPara{
     width: 100%;
