@@ -859,7 +859,7 @@
     .containertwo .logo {
     display: flex;
     flex-direction: row;
-    gap: 60%;
+    gap: 70%;
     padding: 8px;
     }
    .right-click {
