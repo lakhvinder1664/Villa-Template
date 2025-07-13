@@ -629,6 +629,9 @@
     .right-click {
     display: block;
     }
+    .right-click i{
+        font-size: 33px;
+    }
     .bgimgtext {
     left: 15%;
     }
@@ -722,6 +725,9 @@
     
     .right-click {
         display: block; /* Show hamburger menu */
+    }
+    .right-click i{
+        font-size: 33px;
     }
     
     /* Hero section */
@@ -845,6 +851,9 @@
         border: none;
         background: white;
     }
+    .right-click i{
+        font-size: 33px;
+    }
     /* Navigation */
     .leftpart li, .rightpart li {
         font-size: 12px;
@@ -957,6 +966,9 @@
         display: block;
         border: none;
         background: white;
+    }
+    .right-click i{
+        font-size: 33px;
     }
     /* Navigation */
     .leftpart li, .rightpart li {
