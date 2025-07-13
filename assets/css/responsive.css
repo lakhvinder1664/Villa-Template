@@ -684,12 +684,7 @@
     margin: 15px 77px;
     }
 }
-/* ---{Responsive-568}--- */
-@media (max-width: 568px) {
-    .containertwo .logo {
-        gap: 54%;
-    }
-}
+
 
 /* ---{Responsive-567px}--- */
 @media (max-width: 568px) {
