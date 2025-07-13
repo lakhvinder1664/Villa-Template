@@ -743,7 +743,9 @@
   .headingandPara {
     width: 100%;
     margin: 0px; 
-  }
+    margin-top: 15%;
+    margin-bottom: 5%;
+}
   .headingandPara h2 {
     font-size: 44px;
   }
@@ -863,7 +865,7 @@
     margin-bottom: 5%;
   }
   .headingandPara h2 {
-    width: 66%;
+    width: 89%;
     font-size: 40px;
   }
   .span {
