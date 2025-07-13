@@ -854,7 +854,7 @@
 /* ---{Responsive-360px}--- */
 @media (max-width: 360px) {
     .containertwo {
-    padding: 3px 4%;
+    padding: 3px 2%;
     }
     .containertwo .logo {
     display: flex;
