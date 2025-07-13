@@ -745,7 +745,7 @@
     /* Featured section */
     .threethings {
         flex-direction: column;
-        padding: 40px 5%;
+        padding: 40px 4%;
     }
     
     .oneimg, .headingandPara, .fourandImg {
@@ -757,7 +757,7 @@
     }
     .headingandPara{
     width: 100%;
-    margin: 25px; 
+    margin: 0px; 
     }
     .headingandPara h2 {
         font-size: 44px;
@@ -897,7 +897,8 @@
     margin-left: %;
     }
     .headingandPara h2 {
-    font-size: 35px;
+         width: 66%;
+         font-size: 40px;
     }
     
     .span {
@@ -905,7 +906,7 @@
     }
     
     .boxpara {
-    width: 80%;
+    width: 100%;
     }
 
     .fourandImg {
