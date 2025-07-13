@@ -705,7 +705,8 @@
     padding: 12px 0%;
     }
     .containertwo .logo {
-      justify-content: space-around;
+      /* justify-content: space-around; */
+      gap: 213px;
     }
     .containertwo .logo h4 {
     font-size: 30px;
