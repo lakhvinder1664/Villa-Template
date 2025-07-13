@@ -622,7 +622,7 @@
 @media(max-width: 577px){
     .containertwo .logo {
     /* justify-content: space-between; */
-    gap: 213px;
+    gap: 233px;
     }
     .containertwo ul {
     display: none;
