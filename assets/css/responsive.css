@@ -1,438 +1,400 @@
-/* ---{Responsive-1299px}--- */
+/* =============== Responsive Styles =============== */
+
+/* --- 1300px --- */
 @media (max-width: 1300px) {
-   .oneimg {
+  .oneimg {
     width: 78%;
-   }
-    .boxpara .p-2 {
-        width: 59%;
-    }
-    .threethings {
-        padding: 80px 2%;
-    }
-    .threethingsdouble {
+  }
+  .boxpara .p-2 {
+    width: 59%;
+  }
+  .threethings,
+  .threethingsdouble {
     padding: 80px 2%;
-    }
-    .sec-three-color-box {
+  }
+  .sec-three-color-box {
     margin-top: 25%;
-    }
-    .afterblurimg img {
+  }
+  .afterblurimg img {
     width: 80%;
-    }
-    .building, .year, .awwards {
+  }
+  .building, 
+  .year, 
+  .awwards {
     padding: 10px;
-    }
-    .threelightorangeboxcontainertwo {
+  }
+  .threelightorangeboxcontainertwo {
     gap: 5%;
-    }
-    .apv {
+  }
+  .apv {
     display: flex;
     gap: 45px;
-    }
-    .endbutton {
+  }
+  .endbutton {
     width: 50%;
-    }
-    .endbutton a {
-        gap: 10px;
-    }
-
-     .form-btn button {
-     padding: 11px;
-    }
+  }
+  .endbutton a {
+    gap: 10px;
+  }
+  .form-btn button {
+    padding: 11px;
+  }
 }
 
-
-
-/* ---{Responsive-1199px}--- */
+/* --- 1200px --- */
 @media (max-width: 1200px) {
-
-    .threethings {
-        padding: 80px 2%;
-    }
-    .threethingsdouble {
-        padding: 80px 2%;
-    }
-
-   .oneimg {
+  .threethings,
+  .threethingsdouble {
+    padding: 80px 2%;
+  }
+  .oneimg {
     width: 90%;
-   }
-   .headingandPara h2 {
+  }
+  .headingandPara h2 {
     margin: 48px 0;
-    }
-    .fourandImg {
+  }
+  .fourandImg {
     padding: 40px;
-    }
-    .boxpara .p-2 {
-        width: 65%;
-    }
-
-    .sec-three-color-box {
+  }
+  .boxpara .p-2 {
+    width: 65%;
+  }
+  .sec-three-color-box {
     margin-top: 25%;
-    }
-
-    .endbutton {
-        width: 65%;
-    }
-    .endbutton a {
-        gap: 10px;
-    }
-
-    .form-btn {
-        width: 42%;
-    }
-    .form-btn button {
-     padding: 11px;
-    }
+  }
+  .endbutton {
+    width: 65%;
+  }
+  .endbutton a {
+    gap: 10px;
+  }
+  .form-btn {
+    width: 42%;
+  }
+  .form-btn button {
+    padding: 11px;
+  }
 }
 
-/* ---{Responsive-1099px}--- */
- @media (max-width: 1100px) {
-    .firstnav {
+/* --- 1100px --- */
+@media (max-width: 1100px) {
+  .firstnav {
     gap: 34%;
-    }
-    
-    .headingandPara h2 {
-        font-size: 2.5rem;
-        margin: 23px 0;
-    }
-    .threethings {
-        padding: 80px 3%;
-    }
-    .threethingsdouble {
-        padding: 75px 2%;
-    }
-
-    .oneimg {
+  }
+  .headingandPara h2 {
+    font-size: 2.5rem;
+    margin: 23px 0;
+  }
+  .threethings {
+    padding: 80px 3%;
+  }
+  .threethingsdouble {
+    padding: 75px 2%;
+  }
+  .oneimg {
     width: 100%;
-   }
-    .boxpara .p-2 {
-        width: 65%;
-    }
-
-   .sec-three-color-box {
+  }
+  .boxpara .p-2 {
+    width: 65%;
+  }
+  .sec-three-color-box {
     margin-top: 25%;
-   }
+  }
+  .endbutton {
+    width: 58%;
+  }
+  .endbutton a {
+    gap: 8px;
+  }
+  .fourandImg {
+    padding: 15px;
+  }
+  .map-contact-form {
+    padding: 40px;
+  }
+  .form-btn {
+    width: 42%;
+  }
+  .form-btn button {
+    padding: 13px;
+  }
+}
 
-    .endbutton {
-        width: 58%;
-    }
-    .endbutton a {
-        gap: 8px;
-    }
-    
-
-    .endbutton {
-        width: 58%;
-    }
-    .endbutton a {
-        gap: 8px;
-    }
-    
-    
-    .fourandImg {
-        padding: 15px;
-    }
-    
-    .map-contact-form{
-        padding: 40px;
-    }
-
-    .form-btn {
-        width: 42%;
-    }
-    .form-btn button {
-        padding: 13px;
-    }
-
-} 
-
-
-/* ---{Responsive-1024px}--- */
- @media (max-width: 1025px) {
-    
-    .firstnav {
-        gap: 38%;
-    }
-    .containertwo {
+/* --- 1025px --- */
+@media (max-width: 1025px) {
+  .firstnav {
+    gap: 38%;
+  }
+  .containertwo {
     padding: 10px 10%;
-    }
-    .containertwo ul {
+  }
+  .containertwo ul {
     gap: 29px;
-    }
-    .leftpart li i {
+  }
+  .leftpart li i {
     font-size: 18px;
     margin: 3px;
-    }
-    .rightpart a {
+  }
+  .rightpart a {
     padding: 4px;
     border-radius: 15px;
-    }
-    .rightpart i {
+  }
+  .rightpart i {
     font-size: 12px;
-    }
-    .libg a {
+  }
+  .libg a {
     padding: 6px 11px 8px 0px;
-    }
-    .containertwo .logo i {
+  }
+  .containertwo .logo i {
     padding: 9px;
-    }
-    .threethings {
-        padding: 80px 2%;
-    }
-    .oneimg {
+  }
+  .threethings {
+    padding: 80px 2%;
+  }
+  .oneimg {
     width: 117%;
-    }
-    .boxpara .p-2 {
+  }
+  .boxpara .p-2 {
     width: 68%;
-    }
-    .afterblurimg img {
+  }
+  .afterblurimg img {
     width: 65%;
-    }
-    .sec-three-color-box {
+  }
+  .sec-three-color-box {
     margin-top: 20%;
-   }
-   .threelightorangeboxcontainertwo {
+  }
+  .threelightorangeboxcontainertwo {
     gap: 10%;
-   }
-   .threethingsdouble {
+  }
+  .threethingsdouble {
     padding: 80px 1%;
-   }
-   .innextlilne {
+  }
+  .innextlilne {
     align-items: center;
-   }
-   .boxpara {
+  }
+  .boxpara {
     padding: 8px;
-   }
-   .fourandImg {
+  }
+  .fourandImg {
     padding: 19px;
-   }
-   .building, .year, .awwards {
+  }
+  .building, 
+  .year, 
+  .awwards {
     padding: 10px;
-   }
-   .innextlinethirdbox p {
+  }
+  .innextlinethirdbox p {
     margin: 13px;
-   }
-   .endbutton {
-        width: 62%;
-    }
-    .endbutton a{
-        gap: 9px;
-    }
-    .map-contact-form {
+  }
+  .endbutton {
+    width: 62%;
+  }
+  .endbutton a {
+    gap: 9px;
+  }
+  .map-contact-form {
     padding: 11px;
-    }
-    .form-btn {
+  }
+  .form-btn {
     width: 50%;
+  }
 }
-} 
 
-
-
-/* ---{Responsive-991px}--- */
-
+/* --- 992px --- */
 @media (max-width: 992px) {
-    .containertwo .logo {
+  .containertwo .logo {
     gap: 130px;
     display: flex;
     justify-content: center;
     align-items: center;
-    }
-    .leftpart {
+  }
+  .leftpart {
     font-size: 13px;
-    }
-    .containertwo {
+  }
+  .containertwo {
     padding: 15px 4%;
-    } 
-    .threethings {
+  } 
+  .threethings {
     padding: 80px 3%;
-}
-    .oneimg {
+  }
+  .oneimg {
     width: 100%;
-    }
-    .span {
+  }
+  .span {
     font-size: 18px;
-    }
-    .headingandPara h2 {
+  }
+  .headingandPara h2 {
     font-size: 2.5rem;
     margin: 1px 0;
-    }
-    .fourandImg {
+  }
+  .fourandImg {
     padding: 13px;
-    }
-    .totalflatspace {
+  }
+  .totalflatspace {
     margin-bottom: 15px;
-    }
-    .payment {
+  }
+  .payment {
     margin-bottom: 7px;
-    }
-    .boxpara {
-        padding: 6px;
-        margin-top: 34px;
-        font-size: 15px;
-    }
-    .boxpara .p-2 {
+  }
+  .boxpara {
+    padding: 6px;
+    margin-top: 34px;
+    font-size: 15px;
+  }
+  .boxpara .p-2 {
     width: 56%;
     border-bottom: 1px solid lightgray;
     font-size: 18px;
-    }
-    .boxpara .p-3 {
+  }
+  .boxpara .p-3 {
     font-size: 18px;
-    }
-    .contractready, .totalflatspace {
+  }
+  .contractready, 
+  .totalflatspace {
     margin-bottom: 15px;
-    }
-    .blur-img-top-text {
+  }
+  .blur-img-top-text {
     margin-top: 16%;
-    }
-    .afterblurimg img {
+  }
+  .afterblurimg img {
     width: 70%;
-    }
-    .building {
+  }
+  .building {
     padding: 10px;
     min-width: 220px;
-    }
-    .threethingsdouble {
+  }
+  .threethingsdouble {
     padding: 80px 3%;
-    }
-    .innextlilne {
+  }
+  .innextlilne {
     align-items: center;
     gap: 12px;
-    }
-    .innextlinebox {
+  }
+  .innextlinebox {
     padding: 23px 6px 23px 6px;
-    }
-    .innextlinethirdbox h6 {
+  }
+  .innextlinethirdbox h6 {
     padding-left: 3px;
-    }
-    .innextlinethirdbox p {
+  }
+  .innextlinethirdbox p {
     margin: 20px 4px;
-    }
-    .apv {
+  }
+  .apv {
     display: flex;
     gap: 45px;
-    }
-    .endbutton {
+  }
+  .endbutton {
     width: 55%;
     margin: 6px 16px;
-    }
-    .endbutton a {
+  }
+  .endbutton a {
     font-size: 15px;
     gap: 6px;
-    }
-    .endbutton i {
-    padding: 12px
-    }
-    .map-contact-form {
+  }
+  .endbutton i {
+    padding: 12px;
+  }
+  .map-contact-form {
     padding: 17px;
     gap: 30px;
-    }
-    .contact-form-right {
+  }
+  .contact-form-right {
     width: 34%;
-    }
-    .contact-form-right form {
+  }
+  .contact-form-right form {
     padding: 8px 3px 6px 18px;
-    }
-    .last-sec-text {
+  }
+  .last-sec-text {
     padding-top: 6%;
-    }
-} 
+  }
+}
 
-
-
-/* ---{Responsive-767px}--- */
- /* @media (max-width: 768px) { */
-        /* .leftpart {
-        font-size: 9px;
-    }  
-    .containertwo a {
-    font-size: 12px;
-    }
-    
-    .containertwo .logo {
-        gap: 47px;
-    }  */
-
-
-    @media (max-width: 768px) {
-  /* Nuclear reset for stubborn gaps */
-  body, html, .second-nav, .containertwo {
+/* --- 768px --- */
+@media (max-width: 768px) {
+  /* Reset for stubborn gaps */
+  body, 
+  html, 
+  .second-nav, 
+  .containertwo {
     overflow-x: hidden !important;
     max-width: 100% !important;
     width: 100% !important;
   }
+  
   .firstnav {
-      gap: 23%;
-    }
-    .containertwo .logo {
-        gap: 100px;
-    }    
-    .containertwo a {
-        font-size: 13px;
-    }
-    .headingandPara h2 {
+    gap: 23%;
+  }
+  .containertwo .logo {
+    gap: 100px;
+  }    
+  .containertwo a {
+    font-size: 13px;
+  }
+  .headingandPara h2 {
     font-size: 1.5rem;
     margin: 1px 0px;
-    }
-    .boxpara {
+  }
+  .boxpara {
     padding: 7px;
     margin-top: 27px;
-    }
-    
-    .span {
+  }
+  .span {
     font-size: 15px;
-    }
-    .headingandPara h2 {
+  }
+  .headingandPara h2 {
     font-size: 25px;
     margin: 23px 0px;
-    }
-     .p-1{
-        font-size: 10px;
-     }
-     .boxpara {
-     padding: 8px;
-     margin-top: 45px;
-     }
-    .boxpara .p-2 {
+  }
+  .p-1 {
+    font-size: 10px;
+  }
+  .boxpara {
+    padding: 8px;
+    margin-top: 45px;
+  }
+  .boxpara .p-2 {
     width: 56%;
     border-bottom: 1px solid lightgray;
     font-size: 12px;
-    }
-    .boxpara .p-3 {
+  }
+  .boxpara .p-3 {
     font-size: 12px;
-    }    
-    .threethings {
+  }    
+  .threethings {
     gap: 13px;
-    }
-    
-    .fourandImg {
-        padding: 8px;
-    }
-    .contractready, .totalflatspace {
+  }
+  .fourandImg {
+    padding: 8px;
+  }
+  .contractready, 
+  .totalflatspace {
     margin-bottom: 4px;
-    }
-    .payment {
-        margin-bottom: 4px;
-    }
-
-
-    .safety, .payment, .contractready, .totalflatspace {
+  }
+  .payment {
+    margin-bottom: 4px;
+  }
+  .safety, 
+  .payment, 
+  .contractready, 
+  .totalflatspace {
     width: 95%;
     margin-top: 0px;
     margin-left: 10px;
     margin-bottom: 4px;
-    }    
-    .building {
+  }    
+  .building {
     padding: 5px;
     min-width: 158px;
-    }    
-    .building p {
+  }    
+  .building p {
     font-size: 50px;
-    }
-    .building h5 {
+  }
+  .building h5 {
     line-height: 2;
     font-size: 18px;
     position: relative;
-    }
-    .building h5::after {
+  }
+  .building h5::after {
     content: '';
     background-color: #d73737;
     padding: 26px;
@@ -440,142 +402,142 @@
     top: -37px;
     position: absolute;
     right: -51px;
-    }
-    .afterblurimg img {
+  }
+  .afterblurimg img {
     width: 80%;
-    }
-    
-    .oneimg {
-        padding-left: 20%;
-    }
-    .threethings {
+  }
+  .oneimg {
+    padding-left: 20%;
+  }
+  .threethings {
     display: block;    
     gap: 40px;
-    } 
-    .headingandPara {
+  } 
+  .headingandPara {
     margin-top: 5%;
     margin-left: 20%;
-    }
-    .headingandPara h2 {
-        font-size: 49px;
-    }
-    .boxpara {
-        width: 70%;
-    }
-    .span {
-    font-size: 20px;
-    }
-    .p-1 {
-        font-size: 15px;
-    }
-    .boxpara .p-2{
-    font-size: 20px;
-    }
-    .boxpara .p-3{
-    font-size: 20px;
-    }
-    .headingandPara h2 {
+  }
+  .headingandPara h2 {
     font-size: 49px;
-    }    
-    .fourandImg {
-        margin-left: 20%;
-        width: 36%;
-    }
-    .fourandImg {
-        margin-top: 5%;
-        margin-left: 20%;
-        width: 56%;
-    }
-    .threelightorangeboxcontainertwo {
-        display: block;
-        padding: none;
-        margin: 10px;
-    }
-    .building, .year, .awwards {
+  }
+  .boxpara {
+    width: 70%;
+  }
+  .span {
+    font-size: 20px;
+  }
+  .p-1 {
+    font-size: 15px;
+  }
+  .boxpara .p-2 {
+    font-size: 20px;
+  }
+  .boxpara .p-3 {
+    font-size: 20px;
+  }
+  .headingandPara h2 {
+    font-size: 49px;
+  }    
+  .fourandImg {
+    margin-left: 20%;
+    width: 36%;
+  }
+  .fourandImg {
+    margin-top: 5%;
+    margin-left: 20%;
+    width: 56%;
+  }
+  .threelightorangeboxcontainertwo {
+    display: block;
+    padding: none;
+    /* margin: 10px; */
+  }
+  .building, 
+  .year, 
+  .awwards {
     padding: 10px;
     margin: 52px;
     width: 45%;
-    }
-    
-    .blur-img-top-text {
-        margin-top: 0%;
-    }
-    
-    .blur-img-top-text .span {
-        font-size: 18px;
-    }
-    .blurimg h3{
+  }
+  .blur-img-top-text {
+    margin-top: 0%;
+  }
+  .blur-img-top-text .span {
+    font-size: 18px;
+  }
+  .blurimg h3 {
     font-size: 2.5rem;
     margin: 20px 0;
-    }
-    
-    
-    .threethingsdouble {
+  }
+  .threethingsdouble {
     text-align: center;
     padding: none;
-    }
-    .apv {
+  }
+  .apv {
     padding-left: 5%;
     margin: 70px;
     display: flex;
     gap: 40px;
-    }
-    .apv button {
+  }
+  .apv button {
     padding: 18px 37px;
     border: none;
-    }
-    .bestdeal {
+  }
+  .bestdeal {
     margin-top: -7%;
     margin-bottom: 3%;
-    font-size: 17px;
+    font-size: 22px;
     color: #d73737;
     font-weight: 700;
-    }
-    .bestdealfront {
+  }
+  .bestdealfront {
     display: block;
     justify-content: space-between;
     align-items: none;
     margin-bottom: 40px;
-    }
-    .bigfont {
+  }
+  .bigfont {
     width: 100%;
     font-size: 3.3rem;
     font-weight: bold;
-    }
-    .innextlilne{
-        display: block;
-    }
-    .innextlinebox {
-    margin: 13%;
+  }
+  .innextlilne {
+    display: block;
+  }
+  .innextlinebox {
+    margin: 2%;
     flex: 1;
     background: white;
-    padding: 30px;
+    padding: 15px;
     border-radius: 10px;
-    }
-    .innextlinesecondbox img {
-    width: 73%;
-    }
-    .innextlinethirdbox {
+  }
+  .innextlinesecondbox {
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+  .innextlinesecondbox img {
+    width: 95%;
+  }
+  .innextlinethirdbox {
     width: 90%;
     margin-top: 5%;
-    }
-    .innextlinethirdbox h6 {
+  }
+  .innextlinethirdbox h6 {
     font-size: 17px;
     text-align: left;
     padding-left: 95px;
-    }
-    .innextlinethirdbox p {
+  }
+  .innextlinethirdbox p {
     padding-left: 15%;
     font-size: 14px;
     line-height: 2;
     text-align: left;
-    }
-    
-    .endbutton {
+  }
+  .endbutton {
     width: 25%;
     margin: 15px 91px;
-    }
-    .sixcardcontain {
+  }
+  .sixcardcontain {
     margin-left: 25%;
     width: 53%;        
     background: white;
@@ -583,551 +545,494 @@
     overflow: hidden;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s;
-    }
-    .sixcardone img {
+  }
+  .sixcardone img {
     border-radius: 29px;
     margin: 0%;
     padding: 5%;
     width: 100%;
     height: 250px;
     object-fit: cover;
-    }
-    .last-sec-text {
+  }
+  .last-sec-text {
     padding-top: 0%;
-    }
-    .map-contact-form {
+  }
+  .map-contact-form {
     display: block;
     padding: 85px;
-    }
-    .bottom-map-two-box {
+  }
+  .bottom-map-two-box {
     padding-top: 48px;
     display: block;
-    }
-    .left-box {
+  }
+  .left-box {
     margin: 4%;
-    }
-    .contact-form-right {
+  }
+  .contact-form-right {
     padding: 23px;
     width: 100%;
-    }
-    .form-btn {
+  }
+  .form-btn {
     width: 31%;
-    }
-    footer {
+  }
+  footer {
     margin-top: 133%;
     background: black;
-    }
+  }
 }
- /* 576px */
-@media(max-width: 577px){
-    .containertwo .logo {
-    /* justify-content: space-between; */
+
+/* --- 577px --- */
+@media (max-width: 577px) {
+  .containertwo .logo {
     gap: 233px;
-    }
-    .containertwo ul {
+  }
+  .containertwo ul {
     display: none;
-    }
-    .right-click {
+  }
+  .right-click {
     display: block;
-    }
-    .right-click i{
-        font-size: 33px;
-    }
-    .bgimgtext {
+  }
+  .right-click i {
+    font-size: 33px;
+  }
+  .bgimgtext {
     left: 15%;
-    }
-    .littlebigtext {
+  }
+  .littlebigtext {
     font-size: 40px;
-    }
-    .firsttext {
+  }
+  .firsttext {
     padding: 5px 10px;
     font-size: 1rem;
-    }
-    .oneimg {
+  }
+  .oneimg {
     display: flex;
     justify-content: center;
     padding-left: 0;
-    }
-    .headingandPara {
+  }
+  .headingandPara {
     margin-top: 5%;
     margin-left: 12%;
-    }
-    .fourandImg {
+  }
+  .fourandImg {
     margin-top: 5%;
     margin-left: 13%;
     width: 66%;
-    }
-    .sec-three-color-box {
+  }
+  .sec-three-color-box {
     margin-top: 12%;
-    }
-    .blur-img-top-text {
+  }
+  .blur-img-top-text {
     margin-top: 12%;
-    }
-    .threelightorangeboxcontainertwo {
+  }
+  .threelightorangeboxcontainertwo {
     flex-wrap: wrap;
     display: flex;
     gap: 20px;
-    }
-    .building, .year, .awwards {
+  }
+  .building, 
+  .year, 
+  .awwards {
     padding: 10px;
     margin: 0;
     width: 55%;
-}
-    .apv {
+  }
+  .apv {
     padding-left: 5%;
     margin: 0px; 
     display: flex;
     gap: 40px;
     margin-top: 70px;
-    }
-    .endbutton {
+  }
+  .endbutton {
     width: 31%;
     margin: 15px 77px;
-    }
+  }
 }
 
-
-/* ---{Responsive-567px}--- */
+/* --- 568px --- */
 @media (max-width: 568px) {
-    .firstnav {
+  .firstnav {
     display: none;
-    }
-    .firstnav {
-        flex-direction: column;
-        padding: 10px 5%;
-        text-align: center;
-    }
-    
-    .leftpart, .rightpart {
-        justify-content: center;
-        margin-bottom: 10px;
-    }
-    .containertwo {
+  }
+  .firstnav {
+    flex-direction: column;
+    padding: 10px 5%;
+    text-align: center;
+  }
+  .leftpart, 
+  .rightpart {
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  .containertwo {
     padding: 12px 0%;
-    }
-    .containertwo .logo {
-      /* justify-content: space-around; */
-      gap: 226px;
-    }
-    .containertwo .logo h4 {
+  }
+  .containertwo .logo {
+    gap: 226px;
+  }
+  .containertwo .logo h4 {
     font-size: 30px;
-    }
-    .containertwo ul {
+  }
+  .containertwo ul {
     gap: 14px;
-    }
-    .containertwo a {
+  }
+  .containertwo a {
     font-size: 10px;
-    }
-    
-    .containertwo ul {
-        flex-direction: column;
-        gap: 15px;
-        display: none; /* Hide nav items by default */
-    }
-    
-    .right-click {
-        display: block; /* Show hamburger menu */
-    }
-    .right-click i{
-        font-size: 33px;
-    }
-    
-    /* Hero section */
-    .bgimgtext {
+  }
+  .containertwo ul {
+    flex-direction: column;
+    gap: 15px;
+    display: none;
+  }
+  .right-click {
+    display: block;
+  }
+  .right-click i {
+    font-size: 33px;
+  }
+  .bgimgtext {
     left: 21%;
     top: 22%;
-    }
-    .littlebigtext {
-        width: 73%;
-        font-size: 50px;
-    }
-    
-    /* Featured section */
-    .threethings {
-        flex-direction: column;
-        padding: 40px 4%;
-    }
-    
-    .oneimg, .headingandPara, .fourandImg {
-        width: 80%;
-    }
-    .oneimg{
-        /* padding-left: 10%; */
-        width: 100%;
-    }
-    .headingandPara{
+  }
+  .littlebigtext {
+    width: 73%;
+    font-size: 50px;
+  }
+  .threethings {
+    flex-direction: column;
+    padding: 40px 4%;
+  }
+  .oneimg, 
+  .headingandPara, 
+  .fourandImg {
+    width: 80%;
+  }
+  .oneimg {
+    width: 100%;
+  }
+  .headingandPara {
     width: 100%;
     margin: 0px; 
-    }
-    .headingandPara h2 {
-        font-size: 44px;
-    }
-    .boxpara{
+  }
+  .headingandPara h2 {
+    font-size: 44px;
+  }
+  .boxpara {
     width: 90%;
-    }
-    .boxpara .p-2 {
-        width: 100%;
-    }
-    .fourandImg {
+  }
+  .boxpara .p-2 {
+    width: 100%;
+  }
+  .fourandImg {
     margin: 0%;
     width: 100%;
-    }
-    .sec-three-color-box {
-    margin-left: 16%;
-    }
-        .bigfont {
-        width: 100%;
-        font-size: 2.3rem;
-        font-weight: bold;
-    }
-    /* Video section */
-    .blur-img-top-text {
-        margin-top: 15%;
-    }
-    
-    .blurimg h3 {
-        font-size: 24px;
-    }
-    
-    /* Stats section */
-    .threelightorangeboxcontainertwo {
-        flex-direction: column;
-        gap: 15px;
-    }
-    
-    .building, .year, .awwards {
-    width: 53%;
-    margin: 36px 0;
-    }
-    
-    /* Properties section */
-    .bestdealfront {
-        flex-direction: column;
-    }
-    
-    .apv {
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 10px;
-        margin: 20px 0;
-    }
-    
-    .innextlilne {
-        flex-direction: column;
-    }
-    
-    /* Contact section */
-    .map-contact-form {
-        flex-direction: column;
-        padding: 20px;
-    }
-    
-    .map, .contact-form-right {
-        width: 100%;
-    }
-    
-    .form-btn {
-        width: 50%;
-    }
-    
-    /* Footer */
-    footer {
-        margin-top: 50px;
-    }
+  }
+  .sec-three-color-box {
+    /* margin-left: 16%; */
+  }
+  .bigfont {
+    width: 100%;
+    font-size: 2.3rem;
+    font-weight: bold;
+  }
+  .blur-img-top-text {
+    margin-top: 15%;
+  }
+  .blurimg h3 {
+    font-size: 24px;
+  }
+  .threelightorangeboxcontainertwo {
+    margin: 25px;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .building, 
+  .year, 
+  .awwards {
+    width: 100%;
+    margin: 10px 0;
+  }
+  .bestdealfront {
+    flex-direction: column;
+  }
+  .apv {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin: 45px 0;
+  }
+  .innextlilne {
+    flex-direction: column;
+  }
+  .map-contact-form {
+    flex-direction: column;
+    padding: 20px;
+  }
+  .map, 
+  .contact-form-right {
+    width: 100%;
+  }
+  .form-btn {
+    width: 50%;
+  }
+  footer {
+    margin-top: 50px;
+  }
 }
 
-
-/* ---{Responsive-415px}--- */
-/* @media (min-width: 415px) {
-  body { font-size: 16px; 
-}
-
- .containertwo .logo {
-    display: flex;
-    flex-direction: row;
-    gap: 60%;
-    padding: 8px;
-    }
-
-} */
-
-
-/* ---{Responsive-360px}--- */
+/* --- 360px --- */
 @media (max-width: 360px) {
-    .containertwo {
+  .containertwo {
     padding: 3px 2%;
-    }
-    .containertwo .logo {
+  }
+  .containertwo .logo {
     display: flex;
     flex-direction: row;
     gap: 70%;
     padding: 8px;
-    }
-   .right-click {
-        width: 11%;
-        display: block;
-        border: none;
-        background: white;
-    }
-    .right-click i{
-        font-size: 33px;
-    }
-    /* Navigation */
-    .leftpart li, .rightpart li {
-        font-size: 12px;
-    }
-      .leftpart li, .rightpart li {
-        font-size: 10px;
-    }
-    .firsttext {
-        font-size: 17px;
-        padding: 5px 10px;
-    } 
-    
-    .littlebigtext {
-        font-size: 50px;
-    }
-    
-    .firsttext {
-        font-size: 14px;
-        padding: 5px 10px;
-    }
-    .headingandPara {
+  }
+  .right-click {
+    width: 11%;
+    display: block;
+    border: none;
+    background: white;
+  }
+  .right-click i {
+    font-size: 33px;
+  }
+  .leftpart li, 
+  .rightpart li {
+    font-size: 12px;
+  }
+  .leftpart li, 
+  .rightpart li {
+    font-size: 10px;
+  }
+  .firsttext {
+    font-size: 17px;
+    padding: 5px 10px;
+  } 
+  .littlebigtext {
+    font-size: 38px;
+  }
+  .firsttext {
+    font-size: 14px;
+    padding: 5px 10px;
+  }
+  .headingandPara {
     margin-top: 5%;
     margin-bottom: 5%;
-    }
-    .headingandPara h2 {
-         width: 66%;
-         font-size: 40px;
-    }
-    
-    .span {
+  }
+  .headingandPara h2 {
+    width: 66%;
+    font-size: 40px;
+  }
+  .span {
     font-size: 17px;
-    }
-    
-    .boxpara {
+  }
+  .boxpara {
     width: 100%;
-    }
-
-    .fourandImg {
+  }
+  .fourandImg {
     margin-top: 17%;
     margin-left: 0%;
-    }
-    .p-1 {
+  }
+  .p-1 {
     padding: 3px;
     font-size: 15px;
-    }
-    .boxpara .p-2 {
+  }
+  .boxpara .p-2 {
     font-size: 19px;
     padding: 3px;
-    }
-    .boxpara .p-3 {
+  }
+  .boxpara .p-3 {
     font-size: 19px;
     padding: 3px;
-    }
-    .blurimg h3 {
-        font-size: 18px;
-    }
-    .building p {
-        font-size: 30px;
-    }
-    
-    .building h5 {
-        font-size: 12px;
-    }
-    
-    /* Properties section */
-    .bigfont {
-        font-size: 24px;
-    }
-    
-    .apv button {
-        padding: 10px 15px;
-    }
-    
-    /* Contact section */
-    .form-btn {
-        width: 70%;
-    }
-    
-    .left-box {
-        padding: 10px;
-    }
-    
-    .left-box h4 {
-        font-size: 16px;
-    }
+  }
+  .blurimg h3 {
+    font-size: 38px;
+  }
+  .building p {
+    font-size: 50px;
+  }
+  .building h5 {
+    font-size: 15px;
+  }
+  .bigfont {
+    font-size: 37px;
+  }
+  .apv button {
+    font-size: 16px;
+    margin: 0px 0px;
+    width: 48%;
+    /* padding: 10px 15px; */
+  }
+  .form-btn {
+    width: 70%;
+  }
+  .left-box {
+    padding: 10px;
+  }
+  .left-box h4 {
+    font-size: 16px;
+  }
 }
 
-
-/* ---{Responsive-320px}--- */
+/* --- 320px --- */
 @media (max-width: 321px) {
-    .second-nav {
+  .second-nav {
     position: absolute;
     top: 0px;
     bottom: 0px;
     z-index: 2;
-    }
-     .containertwo {
-        padding: 3px 4%;
-    }
-    .containertwo .logo {
+  }
+  .containertwo {
+    padding: 3px 4%;
+  }
+  .containertwo .logo {
     display: flex;
     flex-direction: row;
     gap: 60%;
     padding: 8px;
-    }
-    .containertwo .logo h4 {
+  }
+  .containertwo .logo h4 {
     font-size: 40px;
-    }
-    .right-click {
-        width: 11%;
-        display: block;
-        border: none;
-        background: white;
-    }
-    .right-click i{
-        font-size: 33px;
-    }
-    /* Navigation */
-    .leftpart li, .rightpart li {
-        font-size: 10px;
-    }
-    .firsttext {
-        font-size: 17px;
-        padding: 5px 10px;
-    } 
-    .bgimgtext {
-        left: 20%;
-        top: 10%;
-    }
-    .littlebigtext {
-        font-size: 50px;
-    }
-    
-    .firsttext {
-        font-size: 14px;
-        padding: 5px 10px;
-    }
-    .headingandPara {
+  }
+  .right-click {
+    width: 11%;
+    display: block;
+    border: none;
+    background: white;
+  }
+  .right-click i {
+    font-size: 33px;
+  }
+  .leftpart li, 
+  .rightpart li {
+    font-size: 10px;
+  }
+  .firsttext {
+    font-size: 17px;
+    padding: 5px 10px;
+  } 
+  .bgimgtext {
+    left: 20%;
+    top: 10%;
+  }
+  .littlebigtext {
+    font-size: 50px;
+  }
+  .firsttext {
+    font-size: 14px;
+    padding: 5px 10px;
+  }
+  .headingandPara {
     margin-top: 5%;
     margin-left: 0%;
-    }
-    .headingandPara h2 {
+  }
+  .headingandPara h2 {
     font-size: 35px;
-    }
-    
-    .span {
+  }
+  .span {
     font-size: 17px;
-    }
-    
-    .boxpara {
+  }
+  .boxpara {
     width: 100%;
-    }
-
-    .fourandImg {
+  }
+  .fourandImg {
     margin-top: 17%;
     margin-left: 0%;
-    }
-    .p-1 {
+  }
+  .p-1 {
     padding: 3px;
     font-size: 15px;
-    }
-    .boxpara .p-2 {
+  }
+  .boxpara .p-2 {
     font-size: 19px;
     padding: 3px;
-    }
-    .boxpara .p-3 {
+  }
+  .boxpara .p-3 {
     font-size: 19px;
     padding: 3px;
-    }
-    .blurimg h3 {
-        font-size: 18px;
-    }
-    .building p {
-        font-size: 30px;
-    }
-    
-    .building h5 {
-        font-size: 12px;
-    }
-    
-    /* Properties section */
-    .bigfont {
-        font-size: 20px;
-    }
-    
-    .apv button {
-        padding: 8px 12px;
-        font-size: 12px;
-    }
-    
-    /* Contact section */
-    .last-sec-text h4 {
-        font-size: 20px;
-    }
-    
-    .div-name input, .div-name textarea {
-        width: 100%;
-    }
-    
-    .form-btn {
-        width: 100%;
-    }
-
-    .footer-txt p {
-        font-size: 12px;
-    }
-        .sixcardcontain {
-        margin: -24 px;
-        width: 87%;
-        background: white;
-        border-radius: 10px;
-        overflow: hidden;
-        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-        transition: transform 0.3s;
-    }
-    .sixcardcontainerbg {
+  }
+  .blurimg h3 {
+    font-size: 18px;
+  }
+  .building p {
+    font-size: 30px;
+  }
+  .building h5 {
+    font-size: 12px;
+  }
+  .bigfont {
+    font-size: 20px;
+  }
+  .apv button {
+    padding: 8px 12px;
+    font-size: 12px;
+  }
+  .last-sec-text h4 {
+    font-size: 20px;
+  }
+  .div-name input, 
+  .div-name textarea {
+    width: 100%;
+  }
+  .form-btn {
+    width: 100%;
+  }
+  .footer-txt p {
+    font-size: 12px;
+  }
+  .sixcardcontain {
+    margin: -24 px;
+    width: 87%;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
+  .sixcardcontainerbg {
     display: grid;
-    }
-    .sixcardone img {
+  }
+  .sixcardone img {
     border-radius: 29px;
     margin: 0%;
     padding: 5%;
     width: 100%;
     height: 250px;
     object-fit: contain;
-    }
-    .map iframe {
+  }
+  .map iframe {
     width: 100%;
     border-radius: 12px;
-    }
-    
-    .bottom-map-two-box {
+  }
+  .bottom-map-two-box {
     padding-top: 15px;
     display: block;
-    }
-    .left-box {
+  }
+  .left-box {
     margin-top: 26px;
     padding: 25px;
-    }
-    .div-name {
+  }
+  .div-name {
     padding: 16px 16px 0px 0px;
-    }
-    .form-btn {
-        width: 50%;
-    }
-    .form-btn button {
+  }
+  .form-btn {
+    width: 50%;
+  }
+  .form-btn button {
     font-size: 14px;
     padding: 8px;
-    }
-    footer {
+  }
+  footer {
     margin-top: 330%;
-    }
-    .footer-txt p {
+  }
+  .footer-txt p {
     line-height: 5;
     width: 100%;
     font-size: 18px;
-    }
+  }
 }
-
